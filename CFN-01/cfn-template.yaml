@@ -1,0 +1,33 @@
+# AWSTemplateFormatVersion: 2010-09-09
+
+# Description: |
+#   EC2 instannce with security group
+  
+# Resources:
+  
+# rMySecGrp:
+#   Type: AWS::EC2::SecurityGroup
+#   Properties:
+#     GroupDescription: "Allow SSH Access" # Required
+#     GroupName: "AllowSSH"
+#     SecurityGroupEgress: 
+#       SecurityGroupEgress
+#     SecurityGroupIngress: 
+#       LogicalID:
+#         Type: AWS::EC2::SecurityGroupIngress
+#         Properties:
+#           CidrIp: "String"
+#           CidrIpv6: "String"
+#           Description: "String"
+#           FromPort: Number
+#           GroupId: "String"
+#           GroupName: "String"
+#           IpProtocol: "String" # Required
+#           SourcePrefixListId: "String"
+#           SourceSecurityGroupId: "String"
+#           SourceSecurityGroupName: "String"
+#           SourceSecurityGroupOwnerId: "String"
+#           ToPort: Number
+#     Tags: 
+#       Tags
+#     VpcId: "String"
