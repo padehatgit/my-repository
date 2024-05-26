@@ -62,7 +62,7 @@ Followings are some of features of Flask Framework;
 
 - Create a function `hello` which returns a string `Hello World`.
 
-- Assign a URL route the `hello` function with decorator `@app.route('/')`.
+- Assign a URL route to the `hello` function with decorator `@app.route('/')`.
 
 - Create a function `second` which returns a string `This is the second page` and assign a URL route the `second` function with decorator `@app.route('/second')`. 
 
