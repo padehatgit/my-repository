@@ -23,7 +23,7 @@ route the `third` function with decorator `@app.route('/third/subthird')`.
 @app.route('/forth/<string:my_id>')
 def forte(my_id):
       return f"The page id is {my_id}"
-8
+
 
 
 
